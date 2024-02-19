@@ -1,11 +1,11 @@
-# README
+# WindowSpoof
 
 ## About
 
-This is the official Wails React template.
+Occasionally when you're reverse engineering something, you'll run into a neat anti debug trick in which
+the target application checks window names to determine if a "bad" process is running.
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+This tool will allow you to change window title names for any process you want!
 
 ## Live Development
 
@@ -17,3 +17,9 @@ to this in your browser, and you can call your Go code from devtools.
 ## Building
 
 To build a redistributable, production mode package, use `wails build`.
+
+## Credits
+
+- TitleSpoof (https://github.com/TrinityNET/TitleSpoof): I previously used this, it's a bit laggy though, so I needed 
+something more reliable
+- Wails (https://wails.io/): Awesome Go UI framework
