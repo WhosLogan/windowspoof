@@ -6,10 +6,6 @@ export function BeginFetchingWindows() {
   return window['go']['main']['App']['BeginFetchingWindows']();
 }
 
-export function GetWindows() {
-  return window['go']['main']['App']['GetWindows']();
-}
-
 export function SetWindowTitle(arg1, arg2) {
   return window['go']['main']['App']['SetWindowTitle'](arg1, arg2);
 }
