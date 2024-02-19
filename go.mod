@@ -1,4 +1,4 @@
-module changeme
+module github.com/WhosLogan/windowspoof
 
 go 1.21
 
